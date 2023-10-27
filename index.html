@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form page </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head> 	
+<body class="mb-4">
+   
+        <div class="container"> 
+           <div class="row">
+            <div class="row justify-content-center">
+             <div class="col-md-6">
+                <div class="pt-4">
+                    
+                <h1> College Football </h1>
+                <p>Let's see how well you know College Football! Test your knowledge with this quiz. <a href="https://en.wikipedia.org/wiki/College_football"> Click the link to verify! </a> </p>
+                    </div>
+            <form>
+               
+
+                <div class="mb-3">
+                    <div class="p-3">
+                    <label>Who won the 2022 College Football National Championship? (Select one)</label>
+                    <div>
+                        <input type="radio" name="champion" value="Alabama"> Alabama
+                    </div>
+                    <div>
+                        <input type="radio" name="champion" value="Georgia"> Georgia
+                    </div>
+                    <div>
+                        <input type="radio" name="champion" value="Clemson"> Clemson
+                    </div>
+                    <div>
+                        <input type="radio" name="champion" value="LSU"> LSU
+                    </div>
+                </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="p-3">
+                    <label>Which of the following teams are in the SEC? (Check all that apply)</label>
+                    <div>
+                        <input type="checkbox" name="sec_teams" value="Alabama"> Alabama
+                    </div>
+                    <div>
+                        <input type="checkbox" name="sec_teams" value="Georgia"> Georgia
+                    </div>
+                    <div>
+                        <input type="checkbox" name="sec_teams" value="Florida"> Florida
+                    </div>
+                    <div>
+                        <input type="checkbox" name="sec_teams" value="Texas"> Texas
+                    </div>
+                </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="p-3">
+                    <label for="teamRank">What team has the most playoffs apperances? (Select only one):</label>
+                    <select id="teamRank" name="teamRank" class="form-select form-select-md" required>
+                        <option value="">Select</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Clemson">Clemson</option>
+                        <option value="OhioState">Ohio State</option>
+                        <option value="LSU">LSU</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Georgia">Georgia</option>
+                    </select>
+                </div>
+                </div>
+                <div class="mb-3">
+                    <div class="p-3">
+                    <label for="questionFour"> What team extended the reach of the game? </label>
+                    <input type="text" id="questionFour" name="questionFour" required>
+                </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="p-3">
+                    <label for="questionFive">What year did college football become organized? </label>
+                    <input type="text" id="questionFive" name="questionFive" required>
+                </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="p-3">
+                    <label for="comments">What is the most lopsided victory in college football history? </label>
+                    <textarea id="comments" name="comments" rows="8" style="width: 100%;" required></textarea>
+                </div>
+                </div>
+       
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
